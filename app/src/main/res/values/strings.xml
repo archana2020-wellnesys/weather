@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">WeatherForecast</string>
+
+    <string name="dialog_action_ok">OK</string>
+    <!--<string name="dialog_action_cancel">Cancel</string>-->
+    <string name="dialog_error_title">Sorry</string>
+
+    <string name="wsd_rest_service_api_key">394b0edee0f34f3196945012191905</string>
+    <string name="location">Bengaluru</string>
+    <!-- Detail Activity -->
+    <!--<string name="text_pokemon_id">Id: %s</string>-->
+    <!--<string name="text_pokemon_name">Name: %s</string>-->
+    <!--<string name="text_pokemon_experience">Experience: %s</string>-->
+
+    <!-- Error View -->
+    <string name="error_title">Oops</string>
+    <string name="error_message">Something went wrong at our end!</string>
+    <string name="error_reload">Reload</string>
+    <string name="title_activity_maps_sample">Map</string>
+</resources>

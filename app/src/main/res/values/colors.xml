@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#000</color>
+    <color name="primary_dark">#000</color>
+    <!--<color name="primary_light">#FFCDD2</color>-->
+    <color name="accent">#FF5722</color>
+    <!--<color name="primary_text">#212121</color>-->
+    <!--<color name="secondary_text">#727272</color>-->
+    <!--<color name="icons">@color/white</color>-->
+    <color name="white">#FFFFFF</color>
+    <color name="screen_background">#F5F6F7</color>
+    <color name="opacity_black">#FF000000</color>
+    <color name="temp_color_black">#2A2A2A</color>
+    <color name="color_purple_light">#FF556799</color>
+    <color name="text_color_dark_purple">#556799</color>
+    <color name="opacity_temp_color_black">#FF2A2A2A</color>
+    <color name="color_button_reload">#4A4A4A</color>
+    <color name="error_bg_color">#E85959</color>
+    <!--<color name="divider">#B6B6B6</color>-->
+</resources>

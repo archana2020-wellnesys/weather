@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:backgroundTint="@color/screen_background">
+
+
+    <FrameLayout
+        android:id="@+id/frame_layout_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_56_dp"
+        android:layout_marginBottom="@dimen/dimen_62_dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_location_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/opacity_black"
+                android:fontFamily="@font/roboto_black"
+
+                android:textColor="@color/temp_color_black"
+                android:textSize="@dimen/text_size_96_sp" />
+
+            <TextView
+                android:id="@+id/tv_location_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/color_purple_light"
+                android:fontFamily="@font/roboto_thin"
+                android:textColor="@color/text_color_dark_purple"
+                android:textSize="@dimen/text_size_36_sp" />
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewWeather"
+        android:layout_width="match_parent"
+        android:layoutAnimation="@anim/layout_animation_from_bottom"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" />
+
+
+    <com.wolken.weatherForecast.features.common.ErrorView
+        android:id="@+id/viewError"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="@dimen/progress_bar_dimen"
+        android:layout_height="@dimen/progress_bar_dimen"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/ic_loading"
+        android:indeterminateTint="@android:color/black"
+        android:visibility="invisible" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
