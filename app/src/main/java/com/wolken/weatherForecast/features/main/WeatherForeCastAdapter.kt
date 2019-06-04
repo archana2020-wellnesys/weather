@@ -106,7 +106,7 @@ constructor() : RecyclerView.Adapter<WeatherForeCastAdapter.ItemViewHolder>() {
             for (bindlist in 0 until resWeatherModels.forecast?.forecastday?.size!!) {
 
                 //BIND TUESDAY DATA
-                if (resWeatherModels.forecast.forecastday[bindlist]?.date.equals("2019-05-21")) {
+                if (resWeatherModels.forecast.forecastday[bindlist]?.date.equals("2019-06-04")) {
 
                     tv_weather_day_tuesday?.text = "Tuesday"
 
@@ -114,7 +114,7 @@ constructor() : RecyclerView.Adapter<WeatherForeCastAdapter.ItemViewHolder>() {
                     tv_weather_temp_tuesday?.text = tueAvgTemp.toString() + "C"
                 }
                 //WEDNESDAY DATA
-                if (resWeatherModels.forecast.forecastday[bindlist]?.date.equals("2019-05-22")) {
+                if (resWeatherModels.forecast.forecastday[bindlist]?.date.equals("2019-06-05")) {
 
                     tv_weather_day_wednesday?.text = "Wednesday"
 
@@ -122,7 +122,7 @@ constructor() : RecyclerView.Adapter<WeatherForeCastAdapter.ItemViewHolder>() {
                     tv_weather_temp_wednesday?.text = wedAvgTemp.toString() + "C"
                 }
                 //THURSDAY DATA
-                if (resWeatherModels.forecast.forecastday[bindlist]?.date.equals("2019-05-23")) {
+                if (resWeatherModels.forecast.forecastday[bindlist]?.date.equals("2019-06-06")) {
 
                     tv_weather_day_thursday?.text = "Thursday"
 
@@ -130,7 +130,7 @@ constructor() : RecyclerView.Adapter<WeatherForeCastAdapter.ItemViewHolder>() {
                     tv_weather_temp_thursday?.text = thursAvgTemp.toString() + "C"
                 }
                 //FRIDAY DATA
-                if (resWeatherModels.forecast.forecastday[bindlist]?.date.equals("2019-05-24")) {
+                if (resWeatherModels.forecast.forecastday[bindlist]?.date.equals("2019-06-07")) {
 
                     tv_weather_day_friday?.text = "Friday"
 
